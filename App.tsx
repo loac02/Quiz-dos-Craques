@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { GamePhase, GameConfig, Player, Question, Difficulty, GameMode } from './types';
-import { generateQuestions } from './services/geminiService';
+import { generateQuestions } from './services/ai';
 import { Lobby } from './screens/Lobby';
 import { Arena } from './screens/Arena';
 import { Results } from './screens/Results';
